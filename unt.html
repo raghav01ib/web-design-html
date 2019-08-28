@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Booking</title>
+</head>
+<body style="background:url(images.jpeg);background-repeat: no-repeat;background-size: 100% 100%" >
+	<center><img src="q.jpeg" width="35%" height="20%"></center>
+	<br>
+	<marquee bgcolor="black" hspace="17%"><font size="20%" color="orange" face="pagul">Booking Open</font></marquee>
+	<br><br>
+	<center>
+	<form>
+	<table>
+
+		<tr>
+			<td>
+				Full Name 
+			</td>	
+			<td>
+				<input type="text" name="first name" placeholder="Enter First Name" autocomplete="false">
+			</td>
+			<td>
+				<input type="text" name="first name" placeholder="Enter Last Name" autocomplete="false">
+			</td>
+		</tr>
+		<tr><br></tr>
+		<tr>
+			<td>
+				Email
+			</td>
+			<td>
+				<input type="Email" pattern="[a-zA-Z0-9._%-!*/]+@[A-Za-z0-9./]+\.[a-zA-Z]{2,}$" placeholder="ex: abcd@xyz.com">
+			</td>
+		
+
+			<td><br><br></td>
+			<td>
+				Date of Birth
+			</td>
+			<td>
+				<input type="date" min="1900-01-01">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Room Type
+			</td>
+			<td>
+				<select>
+					<option>---------------</option>
+					<option> Single Room (1 people)</option>
+					<option> Double Sharing Room (2 people) </option>
+					<option>  Palace Room (4 people)  </option>
+					<option>  King Palace (6-8 people) </option>
+				</select>
+			</td>
+			<td><br></td>
+			<td>
+				Number of Rooms
+			</td>
+			<td>
+				<input type="number" min="1" placeholder="Select number of rooms">
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Number of Guests
+			</td>
+			<td>
+				<input type="number" min="1" max="500">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Arrival
+			</td>
+			<td>
+				<input type="date" min="2019-08-28">
+			</td>
+			<td><br><br></td>
+			<td>
+				Departure
+			</td>
+			<td>
+				<input type="date" >
+			</td>
+		</tr>
+		<tr> 
+			<td>
+				Mode Of Payment
+			</td>
+			<td>
+				<input type="radio" name="money" checked="">Card
+				<input type="radio" name="money">Cash
+				<input type="radio" name="money">Net banking
+			</td>
+		 <td>
+		 	<td>Identity Validation</td>
+		 	<td>
+		 		<select>
+		 			<option>Aadhar Card</option>
+		 			<option>PAN Card</option>
+		 			<option>Driving Licence</option>
+		 			<<option>Passport</option>
+		 			<option>Others</option>
+		 		</select>
+		 	</td>
+		 </tr>
+		 <tr>
+		 	<td>Feedback</td>
+		 	<td>
+		 <textarea rows="6" cols="35">
+		 </textarea>
+		</td>
+		</tr>
+		 <tr>
+		 	<td>
+		 		Rate us
+		 	</td>
+		 	<td>
+		 		<input type="range" min="0" max="10">
+		 	</td>
+		 	<td><br></td>
+		 	<td><input type="reset"></td>
+		 	<td>
+		 		<input type="submit">
+		 	</td>
+		 </tr>
+
+
+	</table>	
+	</form>
+</center>
+</body>
+</html>

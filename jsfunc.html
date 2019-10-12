@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<script type="text/javascript">
+			function logincheck()
+		{
+		var user= prompt("ENter username");
+		var pass= prompt("ENter password");
+		if (user=="" && pass=="") {
+			alert("Please provide the username and password");
+		}
+		else if (pass=="") {
+			alert("plase provide a password");
+		}
+		else if (user=="")
+		{
+			alert("Provide user name");
+		}
+		else {
+			alert("Welcome :)");
+		}
+	}
+	</script>
+</head>
+<body>
+	<button onclick="logincheck()">login</button>
+</body>

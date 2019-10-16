@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function check(){
+			var a = document.getElementById("q1").value;
+			if (a=="") {
+				document.getElementById("q2").style.color="red";
+				document.getElementById("q2").innerHTML="Please enter a number to find Cube";
+			}
+			else {
+				var result = a*a*a;
+				document.getElementById("q2").innerHTML="Cube is"+result;
+			}
+		}
+	</script>
+</head>
+<body>
+<form>
+	Enter the Number: <input type="text" id="q1">
+	<div id="q2"></div>
+	<input type="button" value="Cube" onclick="check()">
+</form>
+</body>
+</html>
